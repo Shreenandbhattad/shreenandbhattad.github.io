@@ -1,103 +1,107 @@
-# portefeuille
-======
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# Portefeuille - Shreenand Bhattad
 
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-   
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| Symbiosis     | right-aligned | $1600 |
-| Ashoka        | centered      |   $12 |
-| Unnati        | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
-Three or more...
+Welcome to my portfolio! Here, you'll find detailed sections showcasing my education, experience, certifications, skills, and more. Let's explore the journey together.
 
 ---
 
-Hyphens
+## 🌟 About Me
 
-***
+**Shreenand Bhattad**  
+Student | Nashik, Maharashtra, India  
+📧 [bhattad.shreenand@gmail.com](mailto:bhattad.shreenand@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/shreenand-bhattad-812a0625b)
 
-Asterisks
+I'm passionate about both computer science and entrepreneurship. My goal is to stay updated with the latest technological advancements and leverage them to solve complex problems. With a strong entrepreneurial spirit, I aspire to create meaningful change in the world.
 
-___
+---
 
-Underscores
+## 📚 Education
 
+### Ashoka University
+**Bachelor of Science - BS in Computer Science**  
+*(June 2023 - June 2027)*
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/d-69XIBTVXk?si=lvN32VyBzLZkGlX2
-" target="_blank"><img src="http://img.youtube.com/vi/[YOUTUBE_VIDEO_ID_HERE](https://youtu.be/d-69XIBTVXk?si=lvN32VyBzLZkGlX2)/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="20" height="10" border="10" /></a>
+### Entrepreneurship Development Institute of India
+**Course on Entrepreneurial Adventures for Youth**  
+*(May 2022 - June 2022)*
 
+### Symbiosis School - India
 
-$-b \pm \sqrt{b^2 - 4ac} \over 2a$
-$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
-$\forall x \in X, \quad \exists y \leq \epsilon$
+---
+
+## 💼 Experience
+
+### Koita Centre for Digital Health at Ashoka University (KCDH-A)
+**Data Insights Research Intern**  
+*(December 2024 - Present)*
+- Analyzing large-scale biobank data using Python, R, and CNN to explore gene-environment interactions.
+- Developing data pipelines to process accelerometer data and derive insights on health outcomes.
+
+### Ashoka Economics Society
+**Technology Team Head**  
+*(December 2024 - Present)*
+
+**Technology Team Member**  
+*(September 2024 - December 2024)*
+
+### IEEE Ashoka Student Branch
+**Growth Department Member**  
+*(February 2024 - September 2024)*
+
+### The Astronomy Society of Ashoka University
+**Core Team Member**  
+*(October 2023 - September 2024)*
+
+### Centre for Climate Change and Sustainability (3CS) at Ashoka University
+**Core Member**  
+*(October 2023 - September 2024)*
+
+### Interact: Rotary Sponsored Club
+**Director of Community Services**  
+*(January 2022 - August 2023)*
+
+---
+
+## 🛠️ Skills
+
+- **Programming:** Node.js, R, Python
+- **Data Analysis:** Proficient in exploring and analyzing large datasets
+- **Other Skills:** Digital Marketing, Data Visualization, Leadership
+
+---
+
+## 🏅 Certifications
+
+- **Fundamentals of Python**
+- **Fundamentals of Digital Marketing**
+- **Data Visualization: Empowering Business with Effective Insights**
+
+---
+
+## 📈 Projects
+
+### Biobank Data Insights Project
+- Objective quantification of physical activity using accelerometer data.
+- Leveraged advanced data analytics and CNN models to study cardio-respiratory health impacts.
+
+---
+
+## 📌 Contact Me
+
+Let's connect and create something impactful together!  
+📧 [bhattad.shreenand@gmail.com](mailto:bhattad.shreenand@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/shreenand-bhattad-812a0625b)
+
+---
+
+## 🎨 Themes
+
+You can integrate themes into this README by using:
+
+1. **Dark Mode:** Use a dark background with light text for readability.
+2. **Professional Look:** Highlight key achievements using bold fonts and emojis for sections.
+3. **Interactive Links:** Embed hyperlinks to projects, blogs, or additional resources.
+
+---
+
+*Thank you for visiting my portfolio!*
