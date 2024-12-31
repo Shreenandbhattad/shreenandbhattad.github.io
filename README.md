@@ -1,7 +1,4 @@
 # Portefeuille - Shreenand Bhattad
-
-Welcome to my portfolio! Here, you'll find detailed sections showcasing my education, experience, certifications, skills, volunteering, and more. Let's explore the journey together.
-
 ---
 
 ## 🌟 About Me
@@ -18,7 +15,7 @@ I'm passionate about both computer science and entrepreneurship. My goal is to s
 ## 📚 Education
 
 ### Ashoka University
-**Bachelor of Science - BS in Computer Science**  
+**Bachelor of Science - BS in Computer Science and Entreprenurship**  
 *(June 2023 - June 2027)*
 
 ### Entrepreneurship Development Institute of India
@@ -112,6 +109,9 @@ I'm passionate about both computer science and entrepreneurship. My goal is to s
   Associated with Ashoka University  
   Course Code: ENT-1016-1
 
+- **Harvard CS50x2024**'
+  Assosciated with Harvard University
+  
 ---
 
 ## 📌 Contact Me
