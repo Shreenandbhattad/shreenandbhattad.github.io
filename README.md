@@ -1,6 +1,6 @@
 # Portefeuille - Shreenand Bhattad
 
-Welcome to my portfolio! Here, you'll find detailed sections showcasing my education, experience, certifications, skills, and more. Let's explore the journey together.
+Welcome to my portfolio! Here, you'll find detailed sections showcasing my education, experience, certifications, skills, volunteering, and more. Let's explore the journey together.
 
 ---
 
@@ -62,6 +62,22 @@ I'm passionate about both computer science and entrepreneurship. My goal is to s
 
 ---
 
+## 🤝 Volunteering
+
+### Tare Zameen Foundation
+![Tare Zameen Foundation Logo](https://via.placeholder.com/150)
+**Fundraising Intern**  
+*(February 2022 - September 2022 | 8 months)*  
+- Focused on raising funds for human rights initiatives.
+
+### ConnectFor
+![ConnectFor Logo](https://via.placeholder.com/150)
+**Student Teacher**  
+*(March 2022 - August 2022 | 6 months)*  
+- Engaged in teaching activities aimed at empowering children.
+
+---
+
 ## 🛠️ Skills
 
 - **Programming:** Node.js, R, Python
@@ -86,21 +102,23 @@ I'm passionate about both computer science and entrepreneurship. My goal is to s
 
 ---
 
+## 📖 Courses
+
+- **In Pursuit of Service Excellence**  
+  Associated with Ashoka University  
+  Course Code: ENT-2015-1
+
+- **Jugaad and Tech Enterprise**  
+  Associated with Ashoka University  
+  Course Code: ENT-1016-1
+
+---
+
 ## 📌 Contact Me
 
 Let's connect and create something impactful together!  
 📧 [bhattad.shreenand@gmail.com](mailto:bhattad.shreenand@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/shreenand-bhattad-812a0625b)
-
----
-
-## 🎨 Themes
-
-You can integrate themes into this README by using:
-
-1. **Dark Mode:** Use a dark background with light text for readability.
-2. **Professional Look:** Highlight key achievements using bold fonts and emojis for sections.
-3. **Interactive Links:** Embed hyperlinks to projects, blogs, or additional resources.
 
 ---
 
