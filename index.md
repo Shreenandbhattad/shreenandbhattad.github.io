@@ -80,7 +80,7 @@ I'm passionate about both computer science and entrepreneurship. My goal is to s
 
 ## 🛠️ Skills
 
-- **Programming:** Node.js, R, Python
+- **Programming:** Node.js, R, Python, C++, SML
 - **Data Analysis:** Proficient in exploring and analyzing large datasets
 - **Other Skills:** Digital Marketing, Data Visualization, Leadership
 
