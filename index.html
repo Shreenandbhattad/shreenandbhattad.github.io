@@ -1,93 +1,104 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portefeuille - Shreenand Bhattad</title>
     <style>
-        /* Basic Styles */
+        /* Global Styles */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            line-height: 1.6;
+            background-color: #f0f8ff;
             color: #333;
+            line-height: 1.6;
         }
+
         header {
-            background: linear-gradient(120deg, #4CAF50, #87CEEB);
+            background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 2rem 1rem;
+            padding: 2rem;
         }
+
         header h1 {
-            font-size: 2.5rem;
             margin: 0;
+            font-size: 2.5rem;
         }
-        header p {
-            font-size: 1.2rem;
-        }
+
         nav {
-            background: #333;
-            color: white;
             display: flex;
             justify-content: center;
-            padding: 0.5rem;
+            background: #333;
+            color: white;
         }
+
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 1rem;
-            font-weight: bold;
+            padding: 1rem;
+            display: block;
         }
+
         nav a:hover {
-            text-decoration: underline;
+            background: #575757;
         }
+
         section {
             padding: 2rem;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-        }
-        section h2 {
-            color: #4CAF50;
-            font-size: 2rem;
+            background: white;
             margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
         }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
         footer {
             background: #333;
             color: white;
             text-align: center;
             padding: 1rem;
         }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+        }
+
         ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
         }
+
         ul li {
-            margin: 0.5rem 0;
+            margin-bottom: 1rem;
         }
+
         .button {
             display: inline-block;
-            background: #4CAF50;
-            color: white;
             padding: 0.5rem 1rem;
+            color: white;
+            background-color: #4CAF50;
             text-decoration: none;
             border-radius: 5px;
         }
+
         .button:hover {
-            background: #45a049;
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Portefeuille - Shreenand Bhattad</h1>
-        <p>Welcome to my portfolio! Learn more about my journey and experiences below.</p>
-        <a href="#contact" class="button">Contact Me</a>
+        <p>Welcome to my portfolio!</p>
     </header>
 
     <nav>
@@ -101,7 +112,7 @@
     <section id="about">
         <h2>🌟 About Me</h2>
         <p>
-            Hi, I'm <strong>Shreenand Bhattad</strong>, a student from Nashik, Maharashtra, India. I’m passionate about technology and entrepreneurship. My goal is to stay updated with the latest technological advancements and leverage them to solve complex problems. With a strong entrepreneurial spirit, I aspire to create meaningful change in the world.
+            Hi, I'm <strong>Shreenand Bhattad</strong>, a student from Nashik, Maharashtra, India. I’m passionate about technology and entrepreneurship. My goal is to stay updated with the latest technological advancements and leverage them to solve complex problems.
         </p>
     </section>
 
@@ -110,7 +121,6 @@
         <ul>
             <li><strong>Ashoka University</strong>: Bachelor of Science in Computer Science and Entrepreneurship (2023-2027)</li>
             <li><strong>Entrepreneurship Development Institute of India</strong>: Course on Entrepreneurial Adventures for Youth (2022)</li>
-            <li><strong>Symbiosis School - India</strong></li>
         </ul>
     </section>
 
@@ -119,7 +129,6 @@
         <ul>
             <li><strong>Koita Centre for Digital Health</strong>: Data Insights Research Intern (Dec 2024 - Present)</li>
             <li><strong>Ashoka Economics Society</strong>: Technology Team Head (Dec 2024 - Present)</li>
-            <li><strong>IEEE Ashoka Student Branch</strong>: Growth Department Member (Feb 2024 - Sep 2024)</li>
         </ul>
     </section>
 
@@ -137,7 +146,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Shreenand Bhattad | Designed with love</p>
+        <p>© 2024 Shreenand Bhattad</p>
     </footer>
 </body>
 </html>
