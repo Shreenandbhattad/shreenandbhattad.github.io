@@ -3,238 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefeuille - Shreenand Bhattad</title>
+    <title>Portfolio - Shreenand Bhattad</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+        * {
             margin: 0;
-            font-family: 'Arial', sans-serif;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
             background-color: #f0f8ff;
-            color: #000;
-            line-height: 1.6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
         }
 
         nav {
-            background-color: #87cefa;
-            color: #000;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 1em;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;
-        }
-
-        nav:hover {
-            background-color: #76b3e0;
+            gap: 20px;
         }
 
         nav a {
             text-decoration: none;
-            color: #000;
-            font-size: 1.2em;
-            transition: color 0.3s ease;
+            color: #0077b6;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #0077b6;
+            border-radius: 25px;
+            transition: all 0.3s;
         }
 
         nav a:hover {
+            background-color: #0077b6;
             color: #fff;
         }
 
-        section {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 5em;
-            background-color: #f0f8ff;
-            transition: background-color 0.3s ease;
-        }
-
-        section:hover {
-            background-color: #e0f7fa;
-        }
-
-        .flip-container {
-            perspective: 1000px;
-        }
-
-        .description-box {
-            width: 100%;
-            max-width: 1000px;
-            padding: 2em;
+        .description-container {
+            width: 80%;
+            max-width: 700px;
+            height: 400px;
+            background-color: #fff;
             border-radius: 15px;
-            background: #ffffff;
-            color: #000;
-            text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
             position: relative;
             transform-style: preserve-3d;
-            transition: transform 0.6s;
+            transition: transform 0.8s;
         }
 
-        .flip-container:hover .description-box {
+        .description-container.flipped {
             transform: rotateY(180deg);
         }
 
-        .description-box .front, .description-box .back {
+        .description-box {
             position: absolute;
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
-            top: 0;
-            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
         }
 
-        .description-box .back {
-            transform: rotateY(180deg);
-            background-color: #f9f9f9;
-        }
-
-        .description-box h1 {
-            font-size: 2.5em;
-            margin-bottom: 1em;
-            color: #333;
-        }
-
-        .description-box p {
-            font-size: 1.2em;
-            margin: 0.5em 0;
-        }
-
-        footer {
-            background-color: #87cefa;
-            color: #000;
-            text-align: center;
-            padding: 1em 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        img {
+        .description-front {
+            background-color: #0077b6;
+            color: #fff;
             border-radius: 15px;
-            max-width: 100%;
-            margin: 1em 0;
+        }
+
+        .description-back {
+            background-color: #fff;
+            color: #333;
+            transform: rotateY(180deg);
+            border-radius: 15px;
+        }
+
+        .flip-button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s;
         }
 
-        img:hover {
-            transform: scale(1.05);
-        }
-
-        a {
-            text-decoration: none;
-            color: #87cefa;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #0056b3;
+        .flip-button:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" onclick="showPage('about')">About</a>
+        <a href="#education" onclick="showPage('education')">Education</a>
+        <a href="#projects" onclick="showPage('projects')">Projects</a>
+        <a href="#contact" onclick="showPage('contact')">Contact</a>
     </nav>
 
-    <section id="about">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>About Me</h1>
-                    <p>Hi, I'm Shreenand Bhattad, passionate about technology and entrepreneurship.</p>
-                    <img src="images/about_me.jpg" alt="Shreenand Bhattad">
-                </div>
-                <div class="back">
-                    <p>📧 <a href="mailto:bhattad.shreenand@gmail.com">bhattad.shreenand@gmail .com</a></p>
-                    <p>🔗 <a href="https://www.linkedin.com/in/shreenand-bhattad-812a0625b">LinkedIn</a></p>
-                </div>
-            </div>
+    <div id="about" class="description-container">
+        <div class="description-box description-front">
+            <h1>About Me</h1>
+            <p>Hello! I am Shreenand Bhattad, a student passionate about computer science and entrepreneurship.</p>
         </div>
-    </section>
-
-    <section id="education">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>Education</h1>
-                    <p>Bachelor of Science - BS in Computer Science and Entrepreneurship (Ashoka University)</p>
-                </div>
-                <div class="back">
-                    <p>Course on Entrepreneurial Adventures for Youth (Entrepreneurship Development Institute of India)</p>
-                </div>
-            </div>
+        <div class="description-box description-back">
+            <h1>About Me</h1>
+            <p>With a strong entrepreneurial spirit, I aim to create meaningful change by leveraging technology to solve real-world problems.</p>
         </div>
-    </section>
+        <button class="flip-button" onclick="flipCard(this)">⟳</button>
+    </div>
 
-    <section id="experience">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>Experience</h1>
-                    <p>Data Insights Research Intern - Koita Centre for Digital Health at Ashoka University (KCDH-A)</p>
-                </div>
-                <div class="back">
-                    <p>Analyzing large-scale biobank data using Python, R, and CNN.</p>
-                </div>
-            </div>
+    <div id="education" class="description-container" style="display:none;">
+        <div class="description-box description-front">
+            <h1>Education</h1>
+            <p>Bachelor of Science - Ashoka University</p>
         </div>
-    </section>
-
-    <section id="skills">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>Skills</h1>
-                    <p>Programming: Node.js, R, Python</p>
-                </div>
-                <div class="back">
-                    <p>Data Analysis: Proficient in exploring and analyzing large datasets.</p>
-                </div>
-            </div>
+        <div class="description-box description-back">
+            <h1>Education Details</h1>
+            <p>Currently pursuing a BS in Computer Science and Entrepreneurship at Ashoka University.</p>
         </div>
-    </section>
+        <button class="flip-button" onclick="flipCard(this)">⟳</button>
+    </div>
 
-    <section id="projects">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>Projects</h1>
-                    <p>Biobank Data Insights Project</p>
-                </div>
-                <div class="back">
-                    <p>Objective quantification of physical activity using accelerometer data.</p>
-                </div>
-            </div>
+    <div id="projects" class="description-container" style="display:none;">
+        <div class="description-box description-front">
+            <h1>Projects</h1>
+            <p>Biobank Data Insights Project</p>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="flip-container">
-            <div class="description-box">
-                <div class="front">
-                    <h1>Contact Me</h1>
-                    <p>Let's connect and create something impactful together!</p>
-                </div>
-                <div class="back">
-                    <p>📧 <a href="mailto:bhattad.shreenand@gmail.com">bhattad.shreenand@gmail.com</a></p>
-                    <p>🔗 <a href="https://www.linkedin.com/in/shreenand-bhattad-812a0625b">LinkedIn</a></p>
-                </div>
-            </div>
+        <div class="description-box description-back">
+            <h1>Projects Details</h1>
+            <p>Leveraged data analytics and CNN models to quantify physical activity impacts on health.</p>
         </div>
-    </section>
+        <button class="flip-button" onclick="flipCard(this)">⟳</button>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Shreenand Bhattad. All rights reserved.</p>
-    </footer>
+    <div id="contact" class="description-container" style="display:none;">
+        <div class="description-box description-front">
+            <h1>Contact Me</h1>
+            <p>Email: bhattad.shreenand@gmail.com</p>
+        </div>
+        <div class="description-box description-back">
+            <h1>Contact Links</h1>
+            <p>LinkedIn: <a href="https://linkedin.com/in/shreenand-bhattad">Profile</a></p>
+        </div>
+        <button class="flip-button" onclick="flipCard(this)">⟳</button>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.description-container');
+            pages.forEach(page => {
+                page.style.display = 'none';
+            });
+            document.getElementById(pageId).style.display = 'flex';
+        }
+
+        function flipCard(button) {
+            const container = button.parentElement;
+            container.classList.toggle('flipped');
+        }
+    </script>
 </body>
 </html>
