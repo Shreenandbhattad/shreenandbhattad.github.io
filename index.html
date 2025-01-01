@@ -7,9 +7,10 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f0f8ff;
             color: #000;
+            line-height: 1.6;
         }
 
         nav {
@@ -24,6 +25,11 @@
             top: 0;
             z-index: 1000;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        nav:hover {
+            background-color: #76b3e0;
         }
 
         nav a {
@@ -44,6 +50,11 @@
             align-items: center;
             padding-top: 5em;
             background-color: #f0f8ff;
+            transition: background-color 0.3s ease;
+        }
+
+        section:hover {
+            background-color: #e0f7fa;
         }
 
         .flip-container {
@@ -79,16 +90,18 @@
 
         .description-box .back {
             transform: rotateY(180deg);
+            background-color: #f9f9f9;
         }
 
         .description-box h1 {
-            font-size: 2em;
+            font-size: 2.5em;
             margin-bottom: 1em;
+            color: #333;
         }
 
         .description-box p {
             font-size: 1.2em;
-            line-height: 1.6;
+            margin: 0.5em 0;
         }
 
         footer {
@@ -96,12 +109,20 @@
             color: #000;
             text-align: center;
             padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
 
         img {
             border-radius: 15px;
             max-width: 100%;
             margin: 1em 0;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
         }
 
         a {
@@ -111,6 +132,7 @@
 
         a:hover {
             text-decoration: underline;
+            color: #0056b3;
         }
     </style>
 </head>
@@ -133,7 +155,7 @@
                     <img src="images/about_me.jpg" alt="Shreenand Bhattad">
                 </div>
                 <div class="back">
-                    <p>📧 <a href="mailto:bhattad.shreenand@gmail.com">bhattad.shreenand@gmail.com</a></p>
+                    <p>📧 <a href="mailto:bhattad.shreenand@gmail.com">bhattad.shreenand@gmail .com</a></p>
                     <p>🔗 <a href="https://www.linkedin.com/in/shreenand-bhattad-812a0625b">LinkedIn</a></p>
                 </div>
             </div>
